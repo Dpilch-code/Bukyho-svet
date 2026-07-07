@@ -1,12 +1,12 @@
-const CACHE_NAME = 'bukyho-svet-v01';
+const CACHE_NAME = 'buky-final-v01';
 const ASSETS = [
   './',
   './index.html',
   './style.css',
   './script.js',
   './manifest.webmanifest',
-  './assets/menu.jpg',
-  './icons/icon.svg'
+  './menu.jpg',
+  './icon.svg'
 ];
 
 self.addEventListener('install', event => {
@@ -17,12 +17,14 @@ self.addEventListener('install', event => {
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys().then(keys => Promise.all(
-      keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))
+      keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key))
     ))
   );
   self.clients.claim();
 });
 
 self.addEventListener('fetch', event => {
-  event.respondWith(caches.match(event.request).then(cached => cached || fetch(event.request)));
+  event.respondWith(
+    caches.match(event.request).then(cached => cached || fetch(event.request))
+  );
 });
