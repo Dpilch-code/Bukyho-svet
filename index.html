@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Bukyho svět</title>
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#7b3f16">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Bukyho svět">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="icons/icon.svg">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <img id="menuImage" src="assets/menu.jpg" alt="Bukyho svět">
+
+    <div id="cloud1" class="cloud"></div>
+    <div id="cloud2" class="cloud"></div>
+
+    <div class="bird bird1">🐦</div>
+    <div class="bird bird2">🐦</div>
+    <div class="note note1">♪</div>
+    <div class="note note2">♫</div>
+
+    <button class="hotspot play" data-action="play" aria-label="Hrát"></button>
+    <button class="hotspot character" data-action="character" aria-label="Postava"></button>
+    <button class="hotspot shop" data-action="shop" aria-label="Obchod"></button>
+    <button class="hotspot settings" data-action="settings" aria-label="Nastavení"></button>
+    <button class="hotspot sound" data-action="sound" aria-label="Zvuk"></button>
+
+    <div id="bukyTap"></div>
+    <div id="speech">Ahoj kamaráde!</div>
+    <div id="toast"></div>
+
+    <div id="intro">
+      <button id="startButton">Ťukni pro spuštění 🎵</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
