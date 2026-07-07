@@ -1,5 +1,2 @@
-# Bukyho svět
-
-Funkční PWA menu hry **Bukyho svět od Ranče na Křivé**.
-
-Soubory jsou záměrně všechny v hlavním adresáři, aby šly snadno nahrát na GitHub z iPhonu.
+# Bukyho svět animated v02
+Nahraj všechny soubory do hlavního adresáře GitHub repozitáře.

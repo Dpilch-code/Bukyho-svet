@@ -8,37 +8,33 @@
 <meta name="theme-color" content="#7b3f16">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Bukyho svět">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="apple-touch-icon" href="icon.svg">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div id="game">
   <img id="bg" src="menu.jpg" alt="Bukyho svět">
+  <div id="patch"></div>
 
-  <button class="hotspot play" data-action="play" aria-label="Hrát"></button>
-  <button class="hotspot character" data-action="character" aria-label="Postava"></button>
-  <button class="hotspot shop" data-action="shop" aria-label="Obchod"></button>
-  <button class="hotspot settings" data-action="settings" aria-label="Nastavení"></button>
-  <button class="hotspot music" data-action="music" aria-label="Hudba"></button>
-  <button class="hotspot sound" data-action="sound" aria-label="Zvuk"></button>
-  <button class="hotspot leaderboard" data-action="leaderboard" aria-label="Žebříček"></button>
-  <button class="hotspot news" data-action="news" aria-label="Novinky"></button>
-
-  <div id="bukyHit" aria-label="Buky"></div>
-  <div id="bubble">Ahoj kamaráde!</div>
-  <div id="toast"></div>
-
-  <div class="cloud c1"></div>
-  <div class="cloud c2"></div>
-  <div class="bird b1">🐦</div>
-  <div class="bird b2">🐦</div>
-  <div class="note n1">♪</div>
-  <div class="note n2">♫</div>
-
-  <div id="start">
-    <button id="startBtn">Ťukni pro spuštění 🎵</button>
+  <div id="buky">
+    <div class="shadow"></div><div class="tail"></div><div class="body"></div>
+    <div class="leg l1"></div><div class="leg l2"></div>
+    <div class="arm a1"></div><div class="arm a2"></div><div class="scarf"></div>
+    <div class="head"><div class="horn hL"></div><div class="horn hR"></div><div class="ear eL"></div><div class="ear eR"></div><div class="hair"></div><div class="eye eyeL"></div><div class="eye eyeR"></div><div class="snout"></div><div class="smile"></div></div>
   </div>
+
+  <div id="bubble">Ahoj kamaráde!</div>
+  <button class="hotspot play" data-action="play"></button>
+  <button class="hotspot character" data-action="character"></button>
+  <button class="hotspot shop" data-action="shop"></button>
+  <button class="hotspot settings" data-action="settings"></button>
+  <button class="hotspot sound" data-action="sound"></button>
+
+  <div class="cloud c1"></div><div class="cloud c2"></div>
+  <div class="bird b1">🐦</div><div class="bird b2">🐦</div>
+  <div class="note n1">♪</div><div class="note n2">♫</div>
+  <div id="toast"></div>
+  <div id="start"><button id="startBtn">Ťukni pro spuštění 🎵</button></div>
 </div>
 <script src="script.js"></script>
 </body>

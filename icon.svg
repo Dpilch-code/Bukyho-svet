@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-<rect width="512" height="512" rx="96" fill="#ffd15c"/>
-<rect x="28" y="28" width="456" height="456" rx="78" fill="none" stroke="#4b230b" stroke-width="20"/>
-<path d="M135 172 C85 115 80 75 108 55 C145 95 175 120 197 145" fill="none" stroke="#ffe6aa" stroke-width="34" stroke-linecap="round"/>
-<path d="M377 172 C427 115 432 75 404 55 C367 95 337 120 315 145" fill="none" stroke="#ffe6aa" stroke-width="34" stroke-linecap="round"/>
-<circle cx="256" cy="260" r="132" fill="#a85a22" stroke="#4b230b" stroke-width="12"/>
-<ellipse cx="206" cy="230" rx="28" ry="34" fill="white"/><ellipse cx="306" cy="230" rx="28" ry="34" fill="white"/>
-<circle cx="214" cy="237" r="10" fill="#111"/><circle cx="298" cy="237" r="10" fill="#111"/>
-<ellipse cx="256" cy="306" rx="72" ry="46" fill="#ffc98c"/>
-<ellipse cx="232" cy="306" rx="8" ry="12" fill="#4b230b"/><ellipse cx="280" cy="306" rx="8" ry="12" fill="#4b230b"/>
-<path d="M225 345 Q256 370 287 345" fill="none" stroke="#4b230b" stroke-width="10" stroke-linecap="round"/>
-<text x="256" y="442" text-anchor="middle" font-family="Arial" font-size="62" font-weight="900" fill="#4b230b">BUKY</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512"><rect width="512" height="512" rx="96" fill="#ffd15c"/><circle cx="256" cy="260" r="132" fill="#a85a22" stroke="#4b230b" stroke-width="12"/><ellipse cx="206" cy="230" rx="28" ry="34" fill="white"/><ellipse cx="306" cy="230" rx="28" ry="34" fill="white"/><circle cx="214" cy="237" r="10"/><circle cx="298" cy="237" r="10"/><ellipse cx="256" cy="306" rx="72" ry="46" fill="#ffc98c"/><text x="256" y="442" text-anchor="middle" font-family="Arial" font-size="62" font-weight="900" fill="#4b230b">BUKY</text></svg>
