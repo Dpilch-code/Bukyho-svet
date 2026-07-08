@@ -1,1 +1,1 @@
-Zvuky jsou zatím generované přes WebAudio přímo ve hře.
+PLOCHA VERZE PRO IPHONE. Nahraj všechny soubory z ZIPu přímo do hlavního adresáře GitHubu. Žádné podsložky.
