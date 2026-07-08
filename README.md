@@ -1,13 +1,25 @@
-# Bukyho svět – hratelná verze v1
+# Bukyho svět – první skutečný projekt v0.1
 
-Funkční webová hra:
-- menu,
-- zvuky,
-- klikací tlačítka,
-- Buky z původního obrázku,
-- první skákací hra,
+Struktura:
+- `assets/images` – fotka ranče a reference menu
+- `assets/sprites` – samostatný Buky jako sprite
+- `assets/audio` – poznámka ke zvukům
+- `css`
+- `js/core`
+- `js/scenes`
+- `js/game`
+
+Funkce:
+- hlavní menu kreslené jako hra,
+- skutečný Ranč na Křivé jako pozadí,
+- samostatný animovaný Buky,
+- Buky vyběhne z brány, zamává a řekne „Ahoj kamaráde!“,
+- mraky, ptáci, zvuky,
+- klikací tlačítka Hrát / Postava / Obchod / Nastavení,
+- po kliknutí na Hrát se spustí skákačka,
 - sbírání mincí,
 - překážky,
-- skóre.
+- game over,
+- skóre a mince.
 
-Nahraj všechny soubory do hlavního adresáře GitHub repozitáře.
+Nahraj celý obsah tohoto ZIPu do GitHub repozitáře.

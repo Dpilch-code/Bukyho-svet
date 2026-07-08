@@ -7,5 +7,5 @@
   "orientation": "landscape",
   "background_color": "#78d8ff",
   "theme_color": "#7b3f16",
-  "icons": [{"src":"icon.svg","sizes":"512x512","type":"image/svg+xml","purpose":"any maskable"}]
+  "icons": []
 }
