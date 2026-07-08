@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512"><rect width="512" height="512" rx="96" fill="#ffd15c"/><circle cx="256" cy="260" r="132" fill="#a85a22" stroke="#4b230b" stroke-width="12"/><ellipse cx="206" cy="230" rx="28" ry="34" fill="white"/><ellipse cx="306" cy="230" rx="28" ry="34" fill="white"/><circle cx="214" cy="237" r="10"/><circle cx="298" cy="237" r="10"/><ellipse cx="256" cy="306" rx="72" ry="46" fill="#ffc98c"/><text x="256" y="442" text-anchor="middle" font-family="Arial" font-size="62" font-weight="900" fill="#4b230b">BUKY</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<rect width="512" height="512" rx="92" fill="#7b3f16"/>
+<rect x="30" y="30" width="452" height="452" rx="76" fill="#ffd15c" stroke="#3b1908" stroke-width="16"/>
+<text x="256" y="215" text-anchor="middle" font-family="Arial" font-size="78" font-weight="900" fill="#4b230b">BUKY</text>
+<text x="256" y="310" text-anchor="middle" font-family="Arial" font-size="52" font-weight="900" fill="#4b230b">SVĚT</text>
+<text x="256" y="390" text-anchor="middle" font-family="Arial" font-size="118">🐂</text>
+</svg>

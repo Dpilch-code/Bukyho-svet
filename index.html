@@ -12,29 +12,55 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="game">
-  <img id="bg" src="menu.jpg" alt="Bukyho svět">
-  <div id="patch"></div>
+<div id="app">
+  <canvas id="gameCanvas"></canvas>
 
-  <div id="buky">
-    <div class="shadow"></div><div class="tail"></div><div class="body"></div>
-    <div class="leg l1"></div><div class="leg l2"></div>
-    <div class="arm a1"></div><div class="arm a2"></div><div class="scarf"></div>
-    <div class="head"><div class="horn hL"></div><div class="horn hR"></div><div class="ear eL"></div><div class="ear eR"></div><div class="hair"></div><div class="eye eyeL"></div><div class="eye eyeR"></div><div class="snout"></div><div class="smile"></div></div>
+  <div id="menuScreen" class="screen visible">
+    <img id="menuBg" src="menu.jpg" alt="Bukyho svět">
+    <div class="cloud c1"></div>
+    <div class="cloud c2"></div>
+    <div class="bird b1">🐦</div>
+    <div class="bird b2">🐦</div>
+    <div class="note n1">♪</div>
+    <div class="note n2">♫</div>
+
+    <button class="zone play" id="btnPlay" aria-label="Hrát"></button>
+    <button class="zone character" id="btnCharacter" aria-label="Postava"></button>
+    <button class="zone shop" id="btnShop" aria-label="Obchod"></button>
+    <button class="zone settings" id="btnSettings" aria-label="Nastavení"></button>
+
+    <div id="bukyMenu"><img src="buky.png" alt="Buky"></div>
+    <div id="bubble">Ahoj kamaráde!</div>
+    <div id="menuToast"></div>
+
+    <div id="tapOverlay">
+      <button id="tapStart">Ťukni pro spuštění 🎵</button>
+    </div>
   </div>
 
-  <div id="bubble">Ahoj kamaráde!</div>
-  <button class="hotspot play" data-action="play"></button>
-  <button class="hotspot character" data-action="character"></button>
-  <button class="hotspot shop" data-action="shop"></button>
-  <button class="hotspot settings" data-action="settings"></button>
-  <button class="hotspot sound" data-action="sound"></button>
+  <div id="hud" class="hidden">
+    <div>🪙 <span id="coinsHud">0</span></div>
+    <div>🏆 <span id="scoreHud">0</span></div>
+    <button id="pauseBtn">⏸</button>
+  </div>
 
-  <div class="cloud c1"></div><div class="cloud c2"></div>
-  <div class="bird b1">🐦</div><div class="bird b2">🐦</div>
-  <div class="note n1">♪</div><div class="note n2">♫</div>
-  <div id="toast"></div>
-  <div id="start"><button id="startBtn">Ťukni pro spuštění 🎵</button></div>
+  <div id="gameOver" class="screen hidden">
+    <div class="panel">
+      <h2>Konec hry</h2>
+      <p>Skóre: <b id="finalScore">0</b></p>
+      <p>Mince: <b id="finalCoins">0</b></p>
+      <button id="againBtn">Hrát znovu</button>
+      <button id="menuBtn">Menu</button>
+    </div>
+  </div>
+
+  <div id="simplePanel" class="screen hidden">
+    <div class="panel">
+      <h2 id="panelTitle">Panel</h2>
+      <p id="panelText">Brzy dostupné.</p>
+      <button id="panelClose">Zpět</button>
+    </div>
+  </div>
 </div>
 <script src="script.js"></script>
 </body>
